@@ -1,0 +1,119 @@
+/* Tokens do Nebula Design System (ikatec) — fonte: css-nebula/references/design-system.md.
+   Os pacotes @ikatec/nebula-* não enviam CSS, então os tokens são declarados aqui. */
+:root {
+  /* === CORES PRIMÁRIAS === */
+  --primary-50: #f2f7fc;
+  --primary-100: #e1edf8;
+  --primary-200: #cadff3;
+  --primary-300: #a5cbeb;
+  --primary-400: #7ab0e0;
+  --primary-500: #5a92d7;
+  --primary-600: #4679ca;
+  --primary-700: #3c66b9;
+  --primary-800: #365497;
+  --primary-900: #324b7d;
+  --primary-950: #212e4a;
+
+  --success-50: #e9ffe5;
+  --success-100: #cdffc7;
+  --success-200: #9fff95;
+  --success-300: #63fe58;
+  --success-400: #32f526;
+  --success-500: #0edc06;
+  --success-600: #04b100;
+  --success-700: #068506;
+  --success-800: #0b690b;
+  --success-900: #0f5811;
+  --success-950: #013204;
+
+  --warning-50: #fdfbe9;
+  --warning-100: #fcf9c5;
+  --warning-200: #fbef8d;
+  --warning-300: #f8df4c;
+  --warning-400: #f3cb1c;
+  --warning-500: #e3b30f;
+  --warning-600: #c48b0a;
+  --warning-700: #9c630c;
+  --warning-800: #814f12;
+  --warning-900: #6f4115;
+  --warning-950: #402108;
+
+  --danger-50: #fef2f2;
+  --danger-100: #fee2e2;
+  --danger-200: #fecaca;
+  --danger-300: #fba6a6;
+  --danger-400: #f77272;
+  --danger-500: #ee4545;
+  --danger-600: #db2727;
+  --danger-700: #b81d1d;
+  --danger-800: #981c1c;
+  --danger-900: #801e1e;
+  --danger-950: #450a0a;
+
+  --neutral-white: #ffffff;
+  --neutral-50: #f7f8f8;
+  --neutral-100: #edeef1;
+  --neutral-200: #d7dbe0;
+  --neutral-300: #b4bbc5;
+  --neutral-400: #8c97a4;
+  --neutral-500: #6e7a89;
+  --neutral-600: #586171;
+  --neutral-700: #4c5461;
+  --neutral-800: #3e444e;
+  --neutral-900: #373c43;
+  --neutral-950: #24272d;
+  --neutral-1000: #000000;
+
+  /* === FONTES === */
+  --font-family-title: "Lexend", system-ui, sans-serif;
+  --font-family-body: "Figtree", system-ui, sans-serif;
+
+  /* === BOX / CARD === */
+  --box-background: white;
+  --box-secondary-background: var(--neutral-100);
+  --box-border: var(--neutral-200);
+
+  /* === BADGE === */
+  --badge-primary-background: var(--primary-900);
+  --badge-primary-text: var(--neutral-white);
+  --badge-secondary-background: var(--neutral-200);
+  --badge-secondary-text: var(--neutral-1000);
+  --badge-alert-background-default: var(--danger-600);
+  --badge-alert-text: var(--neutral-white);
+
+  /* === ALERT === */
+  --alert-info-background: var(--primary-50);
+  --alert-info-border: var(--primary-200);
+  --alert-info-text: var(--neutral-950);
+  --alert-info-icon: var(--primary-700);
+  --alert-warning-background: var(--warning-50);
+  --alert-warning-border: var(--warning-200);
+  --alert-warning-text: var(--neutral-950);
+  --alert-warning-icon: var(--warning-600);
+  --alert-danger-background: var(--danger-50);
+  --alert-danger-border: var(--danger-600);
+  --alert-danger-text: var(--neutral-950);
+  --alert-danger-icon: var(--danger-700);
+
+  /* === SIDEBAR === */
+  --sidebar-background: var(--neutral-white);
+  --sidebar-text: var(--neutral-1000);
+  --sidebar-icon: var(--neutral-1000);
+  --sidebar-border: var(--neutral-200);
+  --sidebar-label: var(--neutral-600);
+
+  /* === TABLE === */
+  --table-background: white;
+  --table-border: var(--neutral-200);
+  --table-header-text: var(--neutral-800);
+  --table-cell-background-first-layer: white;
+  --table-cell-background-second-layer: var(--neutral-50);
+  --table-cell-border: var(--neutral-200);
+  --table-cell-text: var(--neutral-950);
+
+  /* === INPUT === */
+  --inputText-background-default: white;
+  --inputText-border-default: var(--neutral-300);
+  --inputText-border-focus: var(--primary-700);
+  --inputText-text-filled: var(--neutral-950);
+}
